@@ -15,14 +15,14 @@
  
 	//Get stylesheets
 	function fimfic_register_styles() {
-		wp_enqueue_style( 'fimfic-card-full', plugins_url( '/assets/css/fimfiction-card-full.min.css', __FILE__ ), array(), '201705028', 'all' );
-		wp_enqueue_style( 'fimfic-card-mini', plugins_url( '/assets/css/fimfiction-card-mini.min.css', __FILE__ ), array(), '201705028', 'all' );
-		wp_enqueue_style( 'font-awesome', plugins_url( '/assets/css/font-awesome.min.css', __FILE__ ), array(), '201705028', 'all' );
+		wp_enqueue_style( 'fimfic-card-full', plugins_url( '/assets/css/fimfiction-card-full.min.css', __FILE__ ), array(), '20170717', 'all' );
+		wp_enqueue_style( 'fimfic-card-mini', plugins_url( '/assets/css/fimfiction-card-mini.min.css', __FILE__ ), array(), '20170717', 'all' );
+		wp_enqueue_style( 'font-awesome', plugins_url( '/assets/css/font-awesome.min.css', __FILE__ ), array(), '20170717', 'all' );
 	}
 	add_action('wp_enqueue_scripts', 'fimfic_register_styles');	
 	//Get scripts
 	function fimfic_register_scripts() {
-		wp_enqueue_script( 'fimfic-expand', plugins_url( '/assets/js/fimfic-expand.min.js', __FILE__ ), array(), '201705028', 'all' );
+		wp_enqueue_script( 'fimfic-expand', plugins_url( '/assets/js/fimfic-expand.min.js', __FILE__ ), array(), '20170717', 'all' );
 	}
 	add_action('wp_enqueue_scripts', 'fimfic_register_scripts');
 	
