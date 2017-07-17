@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: FIMFiction Cards
- * Plugin URI:  https://www.dadiocoleman.com/fimfiction-cards
+ * Plugin URI:  http://ffcards.dadiocoleman.com/
  * Description: Embed FIMFiction stories via a shortcode.
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      David Coleman
  * Author URI:  https://www.dadiocoleman.com
  * Text Domain: fimfiction-cards
